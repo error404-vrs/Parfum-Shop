@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add to card</title>
+    <link rel="stylesheet" href="css/paye.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Achetez se parfum</h1>
+        <form id="paymentForm">
+            <div class="form-group">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="card">Numéro de carte :</label>
+                <input type="text" id="card" required>
+            </div>
+            <div class="form-group">
+                <label for="expiry">Date d'expiration :</label>
+                <input type="text" id="expiry" required>
+            </div>
+            <button type="button" class="btn" onclick="toggleDetails()">Afficher/Cacher Détails</button>
+            <div id="additionalDetails" class="details hidden">
+                <p>Informations supplémentaires sur le paiement...</p>
+                <button type="button" class="btn" onclick="animateMessage()">Envoyer</button>
+            </div>
+            <button type="submit" class="btn">Payer</button>
+            <div class="retour">
+                <a href="index.html">Retour</a>
+            </div>
+        </form>
+        <div id="message" class="message hidden"></div>
+    </div>
+</body>
+</html>

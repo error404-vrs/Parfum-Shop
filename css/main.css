@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgb(253, 244, 229);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    width: 600px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-right: 16px;
+}
+
+.card {
+    background-color: rgba(26, 64, 50, 1);
+    width: 236px;
+    height: 48px;
+    margin: 30px 0 24px;
+    text-align: center;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.parfum {
+    margin: 32px 0 20px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 8px;
+}
+
+.shop-page {
+    margin-left: 24px;
+}
+
+.title {
+    margin: 20px 0 24px; 
+}
+
+.description {
+    margin-bottom: 29px;
+    color: rgba(108, 114, 137, 1);
+    font-family: "Montserrat", sans serif;
+    font-weight: 400;
+    size: 14px;
+    line-height: 23px;
+    
+}
+
+.price {
+    font-family: "Fraunces", serif;
+    display: flex;
+    align-items: center;
+}
+
+.not {
+    margin-left: 32px; 
+}
+
+.yes {
+    font-size: x-large;
+    font-weight: 900;
+    color: rgba(26, 64, 50, 1);
+}
+
+a{
+    color: black;
+}
